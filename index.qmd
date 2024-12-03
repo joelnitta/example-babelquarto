@@ -1,0 +1,7 @@
+---
+title: "例"
+---
+
+これは Quarto のウェブサイトです。
+
+Quarto のウェブサイトについて詳しく知りたい場合は、<https://quarto.org/docs/websites> をご覧ください。
