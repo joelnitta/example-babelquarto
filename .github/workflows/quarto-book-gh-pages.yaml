@@ -19,6 +19,12 @@ jobs:
         with:
           version: pre-release
 
+      # install libcurl, needed for curl R package
+      - name: Install R package deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install libcurl4-openssl-dev
+
       - name: Install R
         uses: r-lib/actions/setup-r@v2
         with:
@@ -29,7 +35,7 @@ jobs:
         with:
           cache-version: 1
 
-      - name: Render website
+      - name: Render book
         run: Rscript -e 'babelquarto::render_website()'
         
       - name: git config
