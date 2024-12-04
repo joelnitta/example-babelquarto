@@ -5,8 +5,7 @@ website:
   title: "テスト用のサイト"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - index.qmd
       - about.qmd
 
 format:
