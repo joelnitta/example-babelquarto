@@ -535,7 +535,7 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.47",
+      "Version": "0.49",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -544,7 +544,7 @@
         "stats",
         "tools"
       ],
-      "Hash": "36ab21660e2d095fef0d83f689e0477c"
+      "Hash": "8687398773806cfff9401a2feca96298"
     },
     "xml2": {
       "Package": "xml2",
