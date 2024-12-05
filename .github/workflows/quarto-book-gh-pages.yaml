@@ -36,7 +36,7 @@ jobs:
           cache-version: 1
 
       - name: Render book
-        run: Rscript -e 'babelquarto::render_website()'
+        run: Rscript -e 'babelquarto::render_website(site_url="https://joelnitta.github.io/example-babelquarto")'
         
       - name: git config
         run: |
