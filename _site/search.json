@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "その他",
+    "section": "",
+    "text": "このサイトについて"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ホーム",
+    "section": "",
+    "text": "これは Quarto のウェブサイトです。\nQuarto のウェブサイトについて詳しく知りたい場合は、https://quarto.org/docs/websites をご覧ください。"
+  }
+]
