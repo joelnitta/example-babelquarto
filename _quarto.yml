@@ -3,7 +3,6 @@ project:
 
 website:
   title: "テスト用のサイト"
-  site-url: https://joelnitta.github.io/example-babelquarto/
   navbar:
     left:
       - index.qmd
